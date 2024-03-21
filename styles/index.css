@@ -1,0 +1,93 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+header h2 {
+  margin: 0;
+  background-color: #333;
+  color: #fff;
+  Padding: 5px;
+}
+
+/* Hero section styles */
+.hero {
+  background-image: url('images/AI-drivetest.jpg');
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #04AA6D;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #04AA6D;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #037e50;
+}
+
+/* Features section styles */
+.features {
+  padding: 40px 0;
+}
+
+.feature {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.feature img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 5%;
+}
+
+.feature h3 {
+  margin-top: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Media query for desktop view */
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 80%;
+  }
+
+  .feature img {
+    max-width: 95%;
+  }
+}
