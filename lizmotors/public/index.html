@@ -5,6 +5,8 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="src/styles.css" />
     <meta
       name="description"
       content="Web site created using create-react-app"
@@ -27,7 +29,77 @@
     <title>React App</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <header>
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Lizmotors</a>
+      <div class="dropdown">
+        <button class="dropbtn">Planing
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">PRD</a>
+          <a href="#">Specs</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Designing
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Software</a>
+          <a href="#">Hardware</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn"> Research
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Internal</a>
+          <div class="dropdown">
+            <button class="dropbtn">External
+              <i class="fa fa-caret-down" style="color: green;"></i> <!-- Different arrow color -->
+            </button>
+            <div class="dropdown-content">
+              <div class="dropdown">
+                <button class="dropbtn">B2C
+                  <i class="fa fa-caret-down" style="color: orange;"></i> <!-- Different arrow color -->
+                </button>
+                <div class="dropdown-content">
+                  <button href="#">Online</button>
+                  <button href="#">Interview</button>
+                  <button href="#">Public Data</button>
+                  <button href="#">Health</button>
+                </div>
+              </div>
+              <a href="#">BC2</a>
+            </div>
+          </div> 
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Manufacturing
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Materials</a>
+          <a href="#">Production</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Sells/Marketing
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Online</a>
+          <a href="#">Dealership</a>
+        </div>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div> 
+      <h3>Welcome to Our Car Manufacturing Company</h3>
+  </header>
+    <script src="src/scripts.js"></script>
     <div id="root"></div>
     <!--
       This HTML file is a template.
