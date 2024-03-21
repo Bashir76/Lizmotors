@@ -20,7 +20,7 @@ header h2 {
 
 /* Hero section styles */
 .hero {
-  background-image: url('../images/AI-drivetest.jpg');
+  background-image: url('/images/AI-drivetest.jpg');
   background-size: cover;
   color: #fff;
   text-align: center;
